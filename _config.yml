@@ -3,6 +3,8 @@
 menu:
   主页: /
   #随笔: /tags/随笔/
+  # tags: /tags
+  # categories: /categories
 
 # SubNav
 subnav:
@@ -68,12 +70,12 @@ duoshuo: false
 # 智能菜单
 # 如不需要，将该对应项置为false
 # 比如
-smart_menu:
- friends: false
 # smart_menu:
-#   innerArchive: '所有文章'
-#   friends: '友链'
-#   aboutme: '关于我'
+ # friends: false
+smart_menu:
+  innerArchive: '所有文章'
+  friends: false
+  aboutme: '关于我'
 
 # friends:
 #   友情链接1: http://localhost:4000/
