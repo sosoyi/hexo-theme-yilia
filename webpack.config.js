@@ -22,7 +22,7 @@ module.exports = {
       loader: ExtractTextPlugin.extract('style-loader', ['css-loader?-autoprefixer', 'postcss-loader', 'sass-loader'])
     }, {
       test: /\.(gif|jpg|png)\??.*$/,
-      loader: 'url-loader?limit=500&name=img/[name].[ext]'
+      loader: 'url-loader?limit=500&name=images/[name].[ext]'
     }, {
       test: /\.(woff|svg|eot|ttf)\??.*$/,
       loader: "file-loader?name=fonts/[name].[ext]"
