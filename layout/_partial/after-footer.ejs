@@ -12,8 +12,7 @@
 	}
 </script>
 
-<%- js('./main.js?v=4.0.0') %>
-
+<%- loadHashFile('main.js') %>
 <% if (theme.mathjax){ %>
 <%- partial('mathjax') %>
 <% } %>

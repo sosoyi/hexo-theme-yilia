@@ -31,7 +31,8 @@
   <% if (theme.favicon){ %>
     <link rel="icon" href="<%- theme.favicon %>">
   <% } %>
-  <%- css('main.css?v=4.0.0') %>
+
+  <%- loadHashFile('main.css') %>
   <%- partial('google-analytics') %>
   <%- partial('baidu-analytics') %>
 </head>
