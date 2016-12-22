@@ -3,12 +3,12 @@ import {decode} from './util'
 function init() {
 	// 由于hexo分页不支持，手工美化
 	var $nav = document.querySelector('#page-nav')
-	if ($nav && !document.querySelector('#page-nav .extend.prev')) {
-		$nav.innerHTML = '<a class="extend prev disabled" rel="prev">&laquo; Prev</a>' + $nav.innerHTML
-	}
-	if ($nav && !document.querySelector('#page-nav .extend.next')) {
-		$nav.innerHTML = $nav.innerHTML + '<a class="extend next disabled" rel="next">Next &raquo;</a>'
-	}
+	// if ($nav && !document.querySelector('#page-nav .extend.prev')) {
+	// 	$nav.innerHTML = $nav.innerHTML
+	// }
+	// if ($nav && !document.querySelector('#page-nav .extend.next')) {
+	// 	$nav.innerHTML = $nav.innerHTML
+	// }
 
 	// 新窗口打开
 	if (yiliaConfig && yiliaConfig.open_in_new) {
