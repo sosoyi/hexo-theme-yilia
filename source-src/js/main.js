@@ -19,7 +19,7 @@ window.onload = () => {
 	if(Browser.versions.mobile && window.screen.width < 800){
 		Mobile.init()
 	}else{
-		loadScript('slider.js?v=4.0.0')
+		loadScript('/slider.js?v=4.0.0.js')
 	}
 	Fix.init()
 	Share.init()
